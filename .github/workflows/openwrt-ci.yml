@@ -57,14 +57,8 @@ jobs:
         run:
           rm -f ./.config*
           touch ./.config
-          #
-          # 在 cat >> .config <<EOF 到 EOF 之间粘贴你的编译配置, 需注意缩进关系
-          # 例如:
-          cat >> .config <<EOF
-          #
-          # Automatically generated file; DO NOT EDIT.
-          # OpenWrt Configuration
-          #
+          
+          cat >> .config <<EOF 
           CONFIG_MODULES=y
           CONFIG_HAVE_DOT_CONFIG=y
           # CONFIG_TARGET_sunxi is not set
