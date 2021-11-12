@@ -1464,7 +1464,6 @@ jobs:
           CONFIG_PACKAGE_luci-i18n-netdata-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-nfs-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-nft-qos-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-nps-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-ntpc-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-olsr-zh-cn=y
